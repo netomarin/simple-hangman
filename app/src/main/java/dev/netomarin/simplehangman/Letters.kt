@@ -1,0 +1,30 @@
+package dev.netomarin.simplehangman
+
+enum class Letters(val letter: String, val drawable: Int) {
+  LETTER_A("A", R.drawable.letter_a),
+  LETTER_B("B", R.drawable.letter_b),
+  LETTER_C("C", R.drawable.letter_c),
+  LETTER_D("D", R.drawable.letter_d),
+  LETTER_E("E", R.drawable.letter_e),
+  LETTER_F("F", R.drawable.letter_f),
+  LETTER_G("G", R.drawable.letter_g),
+  LETTER_H("H", R.drawable.letter_h),
+  LETTER_I("I", R.drawable.letter_i),
+  LETTER_J("J", R.drawable.letter_j),
+  LETTER_K("K", R.drawable.letter_k),
+  LETTER_L("L", R.drawable.letter_l),
+  LETTER_M("M", R.drawable.letter_m),
+  LETTER_N("N", R.drawable.letter_n),
+  LETTER_O("O", R.drawable.letter_o),
+  LETTER_P("P", R.drawable.letter_p),
+  LETTER_Q("Q", R.drawable.letter_q),
+  LETTER_R("R", R.drawable.letter_r),
+  LETTER_S("S", R.drawable.letter_s),
+  LETTER_T("T", R.drawable.letter_t),
+  LETTER_U("U", R.drawable.letter_u),
+  LETTER_V("V", R.drawable.letter_v),
+  LETTER_W("W", R.drawable.letter_w),
+  LETTER_X("X", R.drawable.letter_x),
+  LETTER_Y("Y", R.drawable.letter_y),
+  LETTER_Z("Z", R.drawable.letter_z)
+}
